@@ -1,0 +1,791 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header
+{
+    margin-left: 4cm;
+    position: relative;
+}
+
+.row1
+ {
+    position:  relative;
+    height: 1cm;
+    background-color: #ebe39e;
+}
+#phone
+{
+    margin-left: 27cm;
+    color: black;
+    position: absolute;
+    margin-top: -0.3cm; 
+}
+.number{
+    margin-left: 28cm;
+    position: absolute;
+    color: black;
+    
+    margin-top: -0.3cm; 
+}
+.track{
+    margin-left: 32cm;
+    position: absolute;
+    
+    margin-top: -0.3cm; 
+}
+.tracki{
+    margin-left: 33cm;
+    position: absolute;
+    margin-top: -0.3cm; 
+}
+.help{
+    margin-left: 35.5cm;
+    position: absolute;
+    margin-top: -0.3cm; 
+}
+.helpc{
+    margin-left: 36.5cm;
+    position: absolute;
+    margin-top: -0.3cm; 
+}
+.navigat{  height: 1.5cm;
+    width: 100%;
+    background-color:  rgb(253, 246, 246); 
+    z-index: 1000;
+    color: white;
+}
+.navbar{
+    position: relative;
+    height: 2.9cm;
+    width: 100%;
+    margin-top: 0cm;
+    margin-left: -1cm;
+    background-color: white;
+}
+#img{
+    position: absolute;
+    margin-left: 3cm;
+    margin-top: -0.7cm
+}
+.form-control
+{
+    position: absolute;
+    margin-left: 10cm;
+    width: 13cm;
+    font-weight: bolder;
+    margin-top: -1.0cm;
+    border: 1px solid black;
+    font-size: larger;
+}
+.btn {
+    position: absolute;
+    margin-left: 23cm;
+    margin-top: -1.0cm;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: larger;
+}
+.store
+{ 
+ position: absolute;
+ margin-left: 28cm;
+ margin-top: -0.8cm;
+}
+.stores
+{
+    position: absolute;
+    margin-left: 27.7cm;
+  
+}
+.identity{
+    position: absolute;
+    margin-left: 30cm;
+    margin-top: -0.8cm;
+}
+.identitys
+{
+    position: absolute;
+    margin-left: 29.7cm;
+}
+.heart{
+    position: absolute;
+    margin-left: 32cm;
+    margin-top: -0.7cm;
+}
+.hearts{
+    position: absolute;
+    margin-left: 31.7cm;
+    margin-top: 0cm;
+}
+.cart{
+    position: absolute;
+    margin-left: 33.5cm;
+    margin-top: -0.7cm;
+}
+.carts{
+    position: absolute;
+    margin-left: 33.5cm;
+    margin-top: 0cm;
+}
+.nav-link{
+    position: relative;
+    color: black;
+    font-weight: 700;
+   text-underline-offset: none;
+}
+.d-block
+{     position: relative;
+        height: 12cm;
+} 
+/*.geeks {
+    position: absolute;
+    width: 19.5cm;
+    height: 7.7cm;
+    margin: 0 auto;
+}*/
+#words{
+    position: relative;
+    font-size: 18pt;
+    margin-top: 0.5cm;
+    margin-left: 12cm;
+    margin-right: 10cm;
+
+}
+.ko{
+    position: relative;
+    text-underline-offset: none;
+    margin-top: 0.2cm;
+}
+.sofa
+{position: absolute;
+    margin-left: 2.5cm;
+   color: black;
+   font-size: 16pt;
+   font-weight: 400;
+}
+hr{
+    z-index: 1000;
+}
+.beds{
+    position: absolute;
+    margin-left: 12cm;
+    color: black;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+.Chairs{
+    position: absolute;
+    margin-left: 22cm;
+    color: black;
+    font-size: 16pt;
+    font-weight: 400;
+}
+.Wadrobe{
+    position: absolute;
+    margin-left: 32cm;
+    color: black;
+    font-size: 16pt;
+    font-weight: 400;
+}
+.hup{
+    position: relative;
+    width: 5cm;
+    height: 5cm;
+    overflow: hidden;   
+}
+.hup img{
+    position: absolute;
+    width: 5cm;
+    height: 5cm;
+    transition: 0.5s all ease-in-out;
+}
+.hup:hover img{
+    position: absolute;
+    transform: scale(1.2);
+}
+#online{
+    position: relative;
+    font-size: 18pt;
+    margin-top: 0.5cm;
+    margin-left: 15cm;
+    margin-right: 10cm;
+    font-family: 'Times New Roman', Times, serif;     
+}
+.jatin{
+    position: relative;
+    width: 13cm;
+    height: 10cm;
+    overflow: hidden;   
+}
+.jatin img{
+    position: absolute;
+    width: 13cm;
+    height: 10cm;
+    transition: 0.5s all ease-in-out;
+}
+.jatin:hover img{
+    position: absolute;
+    transform: scale(1.1);
+}
+#ch{
+    position: absolute;
+    margin-left: 18cm;
+    color: black;
+    font-size: 16pt;
+    font-weight: 400;
+}
+ #hus
+ {
+    position: relative;
+    font-size: 20pt;
+    margin-top: 0.5cm;
+    margin-left: 15cm;
+    margin-right: 15cm;
+    font-family: 'Times New Roman', Times, serif;     
+ } 
+ .scroll{
+    position: relative;
+    width: 8cm;
+    height: 6cm;
+    overflow: hidden;   
+}
+.scroll img{
+    position: absolute;
+    width: 8cm;
+    height: 6cm;
+    transition: 0.5s all ease-in-out;
+}
+.scroll:hover img{
+    position: absolute;
+    transform: scale(1.1);
+}
+.mo
+{
+    position: relative;
+    margin-top: 0cm;
+    margin-left: 2cm;
+    font-size: 16pt;
+    font-weight: 400;
+}
+#onle
+{
+    position: relative;
+    font-size: 18pt;
+    margin-top: 0.5cm;
+    margin-left: 17cm;
+    margin-right: 10cm;
+    font-family: 'Times New Roman', Times, serif;     
+}
+.xyz{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: 0cm;
+    
+}
+.sip:hover .xyz
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+.xyz ul{
+    position: absolute;
+  margin-left: -2cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.sip{
+    margin-top: -0.5cm;
+}
+.xyz img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.xyz p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 1.5cm;
+}
+.xyz ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.xyz ul a:hover
+{
+    color: orange;
+}
+.yz{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: 0cm;
+    
+}
+.mjk:hover .yz
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+.yz ul{
+    position: absolute;
+  margin-left: -1cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.mjk{
+    margin-top: -0.5cm;
+}
+.yz img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.yz p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 1.5cm;
+}
+.yz ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.yz ul a:hover
+{
+    color: orange;
+}
+.z{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: 0cm;
+    
+}
+.hy:hover .z
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+.z ul{
+  position: absolute;
+  margin-left: -1cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.hy{
+    margin-top: -0.5cm;
+}
+.z img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.z p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 2.8cm;
+}
+.z ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.z ul a:hover
+{
+    color: orange;
+}
+.zl{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: -7cm;
+    
+}
+.zo:hover .zl
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+.zl ul{
+  position: absolute;
+  margin-left: -1cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.zo{
+    margin-top: -0.5cm;
+}
+.zl img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.zl p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 2cm;
+}
+.zl ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.zl ul a:hover
+{
+    color: orange;
+}
+.opa{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: -11cm;
+    
+}
+.op:hover .opa
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+.opa ul{
+  position: absolute;
+  margin-left: -1cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.op{
+    margin-top: -0.5cm;
+}
+.opa img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.opa p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 2cm;
+}
+.opa ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.opa ul a:hover
+{
+    color: orange;
+}
+.jkl
+{   
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(182, 169, 150, 0.479);
+}
+.modl
+{  
+    background-color: white;
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    border: 1px solid black;
+    width: 18cm; /* Full width */
+    height: 13cm; 
+    margin-top: 4cm;
+    margin-left: 13cm;
+   
+}
+.active
+{
+    display: none;
+}
+
+.styh
+{
+    position: relative;
+    height: 12.9cm;
+    background-color: rgb(213, 202, 202);
+}
+.styh p{
+    position: absolute;
+    margin-top: 1.7cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    color: black;
+    font-size: 24pt;
+    font-weight: bold;
+}
+#klop{
+position: absolute;
+margin-top: 3.5cm;
+margin-left: 0.5cm;
+margin-right: 0.5cm;
+color: black;
+font-size: 16pt;
+}
+.styh img
+{
+   position: absolute;
+    margin-bottom: 2cm;
+    margin-left: 2.3cm;
+    margin-top: 7cm;
+    height: 4cm;
+    width: 4cm;
+}
+#hj
+{
+    position: relative;
+    overflow: hide;
+
+}
+#hj span
+{
+    position: absolute;
+    margin-left: 7.5cm;
+    font-size: 28pt;
+} 
+.lo{
+    position: absolute;
+    margin-top: 1.4cm;
+    margin-left: 0.5cm;
+    font-size: 18pt;
+    font-weight: 300;
+}
+#hugh{
+    position: absolute;
+    margin-top: 2.3cm;
+    margin-left: 0.5cm;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.huio{
+    position: absolute;
+    margin-top: 3.2cm;
+    margin-left: 0.5cm;
+    font-size: 18pt;
+    font-weight: 300;
+}
+#fgh
+{
+    position: absolute;
+    margin-top: 4.2cm;
+    margin-left: 0.5cm;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+#jup
+{
+    position: absolute;
+    margin-top: 4.3cm;
+    margin-left: 6.5cm;
+    color:blue;
+    font-size: 16pt;
+}
+#yo{
+    position: absolute; 
+    margin-top: 6cm;
+    background-color: rgb(212, 212, 224);
+    height: 1cm;
+    width: 6cm;
+    margin-left: 0.4cm;
+    font-size: 18pt;
+}
+#uio
+{
+    position: absolute;
+    margin-top: 7.9cm;
+    margin-left: 3cm;
+    font-size: 18pt;
+}
+#ii
+{
+    position: absolute;
+    margin-top: 10cm;
+    font-size: 14pt;
+    color: blue;
+}
+
+.identitys:hover .myprofile
+{
+    display: block;
+    color: black;
+    height: 7cm;
+}
+
+.myprofile
+{  
+    display: none;
+    position:relative;
+    margin-left: -1cm;
+    border: 1px solid transparent;
+    height: 2cm;
+    width: 5cm;
+    z-index: 100000;
+    background-color: white;
+    text-decoration: none;
+}
+.footer
+{ 
+    position: relative;
+    margin-top: 0cm;
+    border: 1px solid black;
+    height: 10cm;
+    width: 100%;
+    background-color: rgb(10, 31, 88);
+    display: grid;
+    grid-template-columns: repeat(5,4cm);
+    grid-gap: 4cm;   
+}
+.opl
+{    
+    position: relative;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    height: 6cm;
+    width: 6cm;
+    border: 1px solid  rgb(10, 31, 88);
+    color: white;
+    font-size: 14pt;
+}
+.HY{
+  
+    font-weight: bolder;
+    font-size: 22pt;
+    color: rgb(226, 222, 222);
+    padding-bottom: 0.3cm;
+
+}
+.hr
+{ position: absolute;
+    margin-top: 8cm;
+    height: 0.5cm;
+    width: 40cm;
+    border: 0.3px solid rgb(160, 138, 138);
+    background-color: rgb(10, 31, 88);
+    border-left-color:  rgb(10, 31, 88);
+    border-bottom-color:  rgb(10, 31, 88);
+    border-right-color:  rgb(10, 31, 88);
+}
+.a
+{   position: relative;
+    margin-top: 1cm ;
+    margin-left: 2.5cm;
+}
+.b
+{  position: absolute;
+    margin-left: 3.2cm;
+    margin-top: -0.5cm;
+    color: white;
+}
+.d{ position: absolute;
+    margin-top:  1cm ;
+    margin-left: 7cm;
+}
+.c{ position: absolute;
+    margin-left: 10.7cm;
+    margin-top: -0.55cm;
+    color: white;
+}
+.e{ position: absolute;
+    margin-top: 0.9cm ;
+    margin-left: 15cm;
+}
+.f{ position: absolute;
+    margin-left: 18.8cm;
+    margin-top: -0.6cm;
+    color: white;
+}
+.g{ position: absolute;
+    margin-top: 0.9cm ;
+    margin-left: 18cm;
+}
+.hopk{ position: absolute;
+    margin-left: 23.3cm;
+    margin-top: -0.6cm;
+    color: white;
+}
+.bnm{
+    margin-left: 24cm;
+    margin-top: 0.9cm;
+
+}
+.rectangle
+{
+    
+    padding: 16px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .rectangle 
+{
+    padding: 60px;
+}
+.santosh
+{
+    color: black;
+}

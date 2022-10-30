@@ -1,0 +1,762 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.navigation
+{    height: 1.5cm;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(253, 246, 246); 
+}
+.header
+{
+    margin-left: 4cm;
+    position: relative;
+}
+
+.row1
+ {
+    position:  relative;
+    height: 1cm;
+    background-color: #ebe39e;
+}
+#phone
+{
+    margin-left: 27cm;
+    color: black;
+    position: absolute;
+    margin-top: -0.3cm; 
+}
+.number{
+    margin-left: 28cm;
+    position: absolute;
+    color: black;
+    
+    margin-top: -0.3cm; 
+}
+.track{
+    margin-left: 32cm;
+    position: absolute;
+    
+    margin-top: -0.3cm; 
+}
+.tracki{
+    margin-left: 33cm;
+    position: absolute;
+    margin-top: -0.3cm; 
+}
+.help{
+    margin-left: 35.5cm;
+    position: absolute;
+    margin-top: -0.3cm; 
+}
+.helpc{
+    margin-left: 36.5cm;
+    position: absolute;
+    margin-top: -0.3cm; 
+}
+
+.navbar{
+    position: relative;
+    height: 2.9cm;
+    width: 100%;
+    margin-top: 0cm;
+    margin-left: -1cm;
+    background-color: white;
+}
+#img{
+    position: absolute;
+    margin-left: 3cm;
+    margin-top: -0.7cm
+}
+.form-control
+{
+    position: absolute;
+    margin-left: 10cm;
+    width: 13cm;
+    font-weight: bolder;
+    margin-top: -1.0cm;
+    border: 1px solid black;
+    font-size: larger;
+}
+.btn {
+    position: absolute;
+    margin-left: 23cm;
+    margin-top: -1.0cm;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: larger;
+}
+.store
+{ 
+ position: absolute;
+ margin-left: 28cm;
+ margin-top: -0.8cm;
+}
+.stores
+{
+    position: absolute;
+    margin-left: 27.7cm;
+  
+}
+.identity{
+    position: absolute;
+    margin-left: 30cm;
+    margin-top: -0.8cm;
+}
+.identitys
+{
+    position: absolute;
+    margin-left: 29.7cm;
+}
+.heart{
+    position: absolute;
+    margin-left: 32cm;
+    margin-top: -0.7cm;
+}
+.hearts{
+    position: absolute;
+    margin-left: 31.7cm;
+    margin-top: 0cm;
+}
+.cart{
+    position: absolute;
+    margin-left: 33.5cm;
+    margin-top: -0.7cm;
+}
+.carts{
+    position: absolute;
+    margin-left: 33.5cm;
+    margin-top: 0cm;
+}
+.xyz{
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color: white;
+    margin-left: 0cm; 
+}
+.sip:hover .xyz
+{   padding-top: 0cm;
+    display: block;
+    position:absolute ; 
+    z-index: 100;
+    color: black;
+}
+.xyz ul{
+    position: absolute;
+  margin-left: -2cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.sip{
+    margin-top: -0.5cm;
+    color: black;
+}
+.xyz img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.xyz p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 1.5cm;
+}
+.xyz ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.xyz ul a:hover
+{
+    color: orange;
+}
+.yz{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: 0cm;
+    
+}
+.mjk:hover .yz
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    color: black;
+}
+.yz ul{
+    position: absolute;
+  margin-left: -1cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.mjk{
+    margin-top: -0.5cm;
+}
+.yz img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.yz p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 1.5cm;
+}
+.yz ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.yz ul a:hover
+{
+    color: orange;
+}
+.z{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: 0cm;
+    
+}
+.hy:hover .z
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    color: black;
+}
+.z ul{
+  position: absolute;
+  margin-left: -1cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.hy{
+    margin-top: -0.5cm;
+}
+.z img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.z p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 2.8cm;
+}
+.z ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.z ul a:hover
+{
+    color: orange;
+}
+.zl{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: -7cm;
+    
+}
+.zo:hover .zl
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    color: black;
+}
+.zl ul{
+  position: absolute;
+  margin-left: -1cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.zo{
+    margin-top: -0.5cm;
+}
+.zl img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.zl p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 2cm;
+}
+.zl ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.zl ul a:hover
+{
+    color: orange;
+}
+.opa{
+  
+    display: none;
+    position: relative;
+    border: 1px solid rgba(106, 104, 104, 0);
+    height: 7cm;
+    width: 18cm;
+    background-color:  white;
+    margin-left: -11cm;
+    
+}
+.op:hover .opa
+{   padding-top: 0cm;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    color: black;
+}
+.opa ul{
+  position: absolute;
+  margin-left: -1cm;
+  border-top: 0.2cm solid transparent;
+  border-bottom: 1px solid transparent ;
+  border-left: 1px solid transparent;
+  border-right: 0.2px solid black;
+  height: 5cm;
+  width: 10cm;
+  color: black;
+}
+.op{
+    margin-top: -0.5cm;
+}
+.opa img{
+    position: absolute;
+    margin-left: 1cm;
+}
+.opa p{
+    position: absolute;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-left: 2cm;
+}
+.opa ul a 
+{
+    color: black;
+    text-decoration: none;
+}
+.opa ul a:hover
+{
+    color: orange;
+}
+.identitys:hover .myprofile
+{
+    display: block;
+    color: black;
+    height: 7cm;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.myprofile
+{  
+    display: none;
+    position:relative;
+    margin-left: -1cm;
+    border: 1px solid transparent;
+    height: 2cm;
+    width: 5cm;
+    z-index: 1000;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.jkl
+{   
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serifs;
+    background-color: rgba(182, 169, 150, 0.479);
+}
+.modl
+{  
+    background-color: white;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    border: 1px solid black;
+    width: 18cm; /* Full width */
+    height: 13cm; 
+    margin-top: 4cm;
+    margin-left: 13cm;
+   
+}
+.active
+{
+    display: none;
+}
+
+.styh
+{
+    position: relative;
+    height: 12.9cm;
+    background-color: rgb(213, 202, 202);
+}
+.styh p{
+    position: absolute;
+    margin-top: 1.7cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    color: black;
+    font-size: 24pt;
+    font-weight: bold;
+}
+#klop{
+position: absolute;
+margin-top: 3.5cm;
+margin-left: 0.5cm;
+margin-right: 0.5cm;
+color: black;
+font-size: 16pt;
+}
+.styh img
+{
+   position: absolute;
+    margin-bottom: 2cm;
+    margin-left: 2.3cm;
+    margin-top: 7cm;
+    height: 4cm;
+    width: 4cm;
+}
+#hj
+{
+    position: relative;
+    overflow: hide;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#hj span
+{
+    position: absolute;
+    margin-left: 7.5cm;
+    font-size: 28pt;
+} 
+.lo{
+    position: absolute;
+    margin-top: 1.4cm;
+    margin-left: 0.5cm;
+    font-size: 18pt;
+    font-weight: 300;
+}
+.lo:hover{
+    color: black;
+}
+#hugh{
+    position: absolute;
+    margin-top: 2.3cm;
+    margin-left: 0.5cm;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.huio{
+    position: absolute;
+    margin-top: 3.2cm;
+    margin-left: 0.5cm;
+    font-size: 18pt;
+    font-weight: 300;
+}
+.huio:hover{
+    color: black;
+}
+#fgh
+{
+    position: absolute;
+    margin-top: 4.2cm;
+    margin-left: 0.5cm;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+#jup
+{
+    position: absolute;
+    margin-top: 4.3cm;
+    margin-left: 6.5cm;
+    color:blue;
+    font-size: 16pt;
+}
+#yo{
+    position: absolute; 
+    margin-top: 6cm;
+    background-color: rgb(212, 212, 224);
+    height: 1cm;
+    width: 6cm;
+    margin-left: 0.4cm;
+    font-size: 18pt;
+}
+#uio
+{
+    position: absolute;
+    margin-top: 7.9cm;
+    margin-left: 3cm;
+    font-size: 18pt;
+}
+#ii
+{
+    position: absolute;
+    margin-top: 10cm;
+    font-size: 14pt;
+    color: blue;
+}
+.nav-link{
+    position: relative;
+    color: black;
+    font-weight: 700;
+   text-underline-offset: none;
+}
+.rectangle
+{
+    border: 1px solid transparent;
+    height: 150cm;
+    width: 40.2cm;
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .rectangle 
+{
+    padding:  60px;
+}
+
+
+
+ .window{
+    position: relative;
+    background-color: white;
+    border: -3px solid transparent;
+    height: 1.3cm;
+    width: 6.95cm;
+    margin-left: 0.73cm;
+    margin-top: 0cm;
+    border-bottom-color:black ;
+ }
+.window2
+ {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 4cm;
+    border: 1px solid transparent;
+    width: 7cm;
+    border-bottom-color:black ;
+    margin-top: 2cm;
+    margin-left: 0cm;
+ }
+ .window3{
+    position: absolute;
+    background-color: white;
+    height: 5cm;
+    width: 7cm;
+    border: 1px solid transparent;
+    margin-top: 6cm;
+    margin-left: 0cm;
+    border-bottom-color:black ;
+ }
+ .window4{
+    position: absolute;
+    background-color: white;
+    height: 4cm;
+    width: 7cm;
+    border: 1px solid transparent;
+    margin-top: 11cm;
+    margin-left: 0cm;
+    border-bottom-color:black ;
+ }
+ .window5{
+    position: absolute;
+    background-color: white;
+    height: 4cm;
+    width: 7cm;
+    border: 1px solid transparent;
+    margin-top: 15cm;
+    margin-left: 0cm;
+ }
+ #fish
+ {
+    position: relative;
+    font-size: 12pt;
+    font-weight: 600;
+    margin-left: 0.6cm;
+   padding-top: 0.4cm;
+ }
+
+
+
+ .mx-3
+ {
+ 
+    font-size: 12pt;
+ }
+#face{
+    color: brown;
+}
+#fac{
+    color: blue;
+}
+#fa{
+    color:rgb(242, 232, 164);
+}
+#f{
+    color: green;
+}
+label:hover{
+    color: orange;
+}
+#vh{
+    position: absolute;
+    margin-left: 6.4cm;
+    margin-top: -0.8cm;
+}
+#vho{
+    position: absolute;
+    margin-left: 6.4cm;
+    margin-top: -0.5cm;
+}
+#v{
+    position: absolute;
+    margin-left: 6.4cm;
+    margin-top: -0.5cm;
+}
+#h{
+    position: absolute;
+    margin-left: 6.4cm;
+    margin-top: -0.5cm;
+}
+.accordion
+{  position: absolute;
+    width: 7cm;
+    margin-top: 0cm;
+    margin-left: 0.7cm;
+}
+  .accordion-item
+  {
+    z-index: 1;
+  }
+  .accordion-button:not(.collapsed)
+  {
+    background-color: white;
+    color: black;
+  }
+  .accordion-button:focus
+  {
+    border-color: transparent;
+    box-shadow: 0 0 0 0.25rem transparent;
+  }
+  .accordion-button
+  {
+    font-size: 12pt;
+    font-weight: 600;
+  }
+ 
+  .slope 
+  {
+     position: absolute;
+    display: grid;
+    margin-left: 8.5cm;
+    margin-top: 0.5cm;
+  grid-gap: 1.6cm;
+    grid-template-columns: 14cm 14cm ;
+   background-color: transparent;
+  width: 30cm;
+  
+
+  }
+  .item {
+    position: relative;
+    background-color: white;
+    border: 1px solid  white;
+    height: 11cm;
+    width: 14cm;
+    box-shadow: 2px 2px 2px 2px   white;
+    
+  }
+.item img{
+    margin-top: 0.1cm;
+    height: 9cm;
+    width: 13.9cm;
+    margin-left: 0.1cm;
+}
+.s{
+    position: fixed;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    top: -4cm;
+    width: 100%; 
+}
+.content
+{   font-size: 18pt;
+    font-weight: 600;
+    margin-left: 1cm;
+}
+.content span{
+    font-size: 16pt;
+    color: orange;
+    font-weight: 100;
+}
+.content del{
+    font-weight: 100;
+}
+.content a
+{  color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.add{
+    margin-top: -1.8cm;
+    margin-left: 11cm;
+}
+.subttract
+{
+  margin-top: -0.9cm;
+    margin-left: 12.3cm; 
+    font-size: 20pt;
+  
+}
